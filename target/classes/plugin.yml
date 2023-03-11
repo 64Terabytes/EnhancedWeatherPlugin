@@ -1,0 +1,12 @@
+name: EnhancedWeatherPlugin
+version: '1.0-SNAPSHOT'
+main: io.github._64terabytes.enhancedweatherplugin
+api-version: 1.19
+prefix: EnhancedWeather
+load: STARTUP
+authors: [ 64Terabytes ]
+description: AAAAAAAAAAA
+commands:
+  setweathertype:
+    description: Sets the clients weather
+    usage: /<command>
