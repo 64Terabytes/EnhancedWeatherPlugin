@@ -21,7 +21,7 @@ public class BlockOldWeather implements Listener {
     public void command(PlayerCommandPreprocessEvent e) {
         if(e.getMessage().startsWith("/weather")) {
             e.setCancelled(true);
-            e.getPlayer().sendMessage(ChatColor.RED + "Weather commands do not work with Enhanced Weather installed");
+            e.getPlayer().sendMessage(ChatColor.RED + "Default Minecraft weather is disabled with Enhanced Weather running");
         }
     }
 }

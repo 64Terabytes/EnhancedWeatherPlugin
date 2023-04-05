@@ -9,10 +9,15 @@ public final class enhancedweatherplugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        // bStats
+        Metrics metrics = new Metrics(this, 18143);
+
         // Plugin startup logic
         TestCommands commands = new TestCommands();
         getServer().getPluginManager().registerEvents(new BlockOldWeather(), this);
         getCommand("setweathertype").setExecutor(commands);
+        getCommand("placeparticle").setExecutor(commands);
+        getCommand("particlecircle").setExecutor(commands);
 
         getServer().getConsoleSender().sendMessage(ChatColor.AQUA + "[Enhanced Weather] Plugin has started");
     }

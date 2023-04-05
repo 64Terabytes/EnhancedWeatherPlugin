@@ -1,4 +1,4 @@
-name: EnhancedWeatherPlugin
+name: EnhancedWeather
 version: '1.0-SNAPSHOT'
 main: io.github._64terabytes.enhancedweatherplugin
 api-version: 1.19
@@ -6,7 +6,21 @@ prefix: EnhancedWeather
 load: STARTUP
 authors: [ 64Terabytes ]
 description: AAAAAAAAAAA
+website: https://github.com/64Terabytes/EnhancedWeatherPlugin
+#permissions:
+#  eh.info:
+#    description: Allows access information weather commands
+#    default: not op
+#  eh.admin:
+#    description: Allows access to admin weather commands
+#    default: op
 commands:
   setweathertype:
     description: Sets the clients weather
+    usage: /<command>
+  placeparticle:
+    description: Places a particle
+    usage: /<command>
+  particlecircle:
+    description: Places a particle circle
     usage: /<command>
