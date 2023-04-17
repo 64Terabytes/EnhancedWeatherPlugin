@@ -15,6 +15,8 @@ website: https://github.com/64Terabytes/EnhancedWeatherPlugin
 #    description: Allows access to admin weather commands
 #    default: op
 commands:
+  spawnweather:
+    description: Spawns weather event
   setweathertype:
     description: Sets the clients weather
     usage: /<command>
