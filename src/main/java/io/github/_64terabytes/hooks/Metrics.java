@@ -1,4 +1,4 @@
-package io.github._64terabytes;
+package io.github._64terabytes.hooks;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
